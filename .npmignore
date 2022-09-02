@@ -2,7 +2,10 @@ node_modules
 public
 /dist
 exports
-src
+src/*
+src/.*
+!src/components/toast
+!src/components/skeleton
 tests
 .browserslistrc
 .eslintrc.js
