@@ -1,11 +1,13 @@
 node_modules
-public
+public/*
+public/.*
+!public/themes
 /dist
 exports
 src/*
 src/.*
-!src/components/toast
-!src/components/skeleton
+!src/components/
+!src/assets/styles/primevue.css
 tests
 .browserslistrc
 .eslintrc.js
